@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* home page styles */
+.container{
+  display: grid;
+  grid-template-columns:repeat(4,1fr);
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 3%;
+  gap: 1rem;
+}
+img{
+  width: 100%;
+  height: 300px;
+}
+#h1{
+  display: flex;
+  justify-content: space-around;
+  font-size: 40px;
+}
+
+#homeButton{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.item{
+  border: 1px solid grey;
+  padding: 10px;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 7px;
+  padding-right: 7px;
+  background-color: black;
+  color: white;
+}
+
+
+
+
+/* cart page styles... */
+
+.cart-container{
+  display: grid;
+  grid-template-columns:repeat(3,1fr);
+  margin-left: 7%;
+  margin-right: 7%;
+  gap: 1rem;
+}
+.product-container{
+  width: 600px;
+  height: auto;
+  margin-right: 7%;
+  background-color: black;
+  color: white;
+}
+.menu{
+  display: flex;
+}
+.checkout{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.cart-item{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+ol{
+  border-bottom: 1px solid grey;
+  padding-bottom: 5px;
+}
+
+.total{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin-left: 12%;
+  margin-right: 12%;
+  border-bottom: 1px solid grey;
+}
